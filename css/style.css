@@ -1,0 +1,22 @@
+@import url(normalize.css);
+@import url(desktop.css) (min-width: 800px);
+@import url(mobile.css) (max-width: 799px);
+
+div {
+  margin: 5px;
+}
+
+.container {
+  margin: 10px;
+
+  display: flex;
+  height: 100%;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}

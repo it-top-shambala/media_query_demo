@@ -1,0 +1,8 @@
+.names {
+  margin: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+}
